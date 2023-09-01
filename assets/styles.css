@@ -1,0 +1,298 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+#grille {   
+    width: 80%;
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 1fr ;   
+}
+#phone {
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+#text1 {
+    padding-top: 50px;
+    margin-left: 40px;   
+}
+#bloc1 {
+    background-color: aliceblue;
+    grid-column: 1 /span 2;
+    display: flex;
+    flex-direction: row;
+}
+#bloc2 {
+    background-color: grey;
+}
+#bloc2, #bloc6 {
+    grid-column: 3 /span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#learn {
+    margin-left: 200px;
+}
+#evaporator {
+    margin-left: 130px;
+}
+#download {
+    color: #38d5f4 ;
+    margin-left: 200px;
+}
+#bloc3, #bloc5 {
+    grid-column: 2 /span 2;
+
+}
+#clavier {
+    background-color: #f05638;
+}
+#keyboard {
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.brand, .brand1 {
+    color: white;
+}
+.brand {
+    margin-left: 70px;
+}
+.brand1 {
+    margin-left: 90px;
+}
+#learn1 {
+    color: rgb(221, 174, 45);
+    margin-left: 95px;
+}
+#text3 {
+    padding-top: 20px;
+}
+#bloc3 {
+    background-color: white;
+}
+#bloc3, #text4, #ecran {
+    display: flex;
+    flex-direction: column;
+} 
+#text4 {
+    margin-left: 50px ;
+
+}
+#ecran {
+    width: 100%;
+    margin-left: -300px;
+}
+#text5 {
+    margin-top: -300px;
+    margin-left: 275px;
+}
+#download1 {
+    color: #38d5f4;
+}
+#bloc4 {
+    background-color: #8166b0;
+    grid-row: 2/span 2;
+    grid-column: 4;
+}
+#rond {
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#drapeau {
+    width: 15%;
+    margin-left: 5px;
+}
+#rond2 {
+    background-color: #8166b0;
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+    margin-left: 85px;
+    margin-top: 0px;  
+}
+#disquette {
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#meet {
+    margin-left: 110px;
+}
+#text6 {
+    color: white;
+    margin-top: 50px;
+}
+#cloud {
+    margin-left: 100px;
+}
+#text7{
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: -5px;   
+}
+.button {
+    background-color:rgb(221, 174, 45) ;
+    border-radius: 15px;
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#controller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+
+}
+#nes {
+    margin-right: 40px;
+    margin-top: -50px;
+}
+#manette {
+    width: 100%;
+}
+#games {
+    margin-left: 50px;
+}
+#learn3 {
+    color: #38d5f4;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#bloc5 {
+    background-color: #93b6b7;
+}
+#best {
+    background-color: #f05638;
+    color: white;
+    width: 25%;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#text8 {
+    margin-top: 7px;   
+}
+#munch {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#exp {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#ordi {
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 45px;
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 2;   
+}
+#ux {
+    display: flex;
+    justify-content: center;
+    font-size: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -275px;
+   margin-left: 70px;
+   opacity: 10%;
+}
+#tweet {
+    background-color: #38d5f4;
+}
+#rond3 {
+    background-color: aqua ;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#twitte {
+    width:50% ;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#connect {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#twitter {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+#bibi {
+    background-color: white;
+    display: flex;
+    flex-direction: column;    
+}
+.button2 {
+    background-color: green;
+    width: 35%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;  
+}
+#text9 {
+    font-size: 20px;
+    margin: auto;
+    margin-top: -20px;
+}
+#text10 {
+    font-size: 20px;
+    margin: auto;
+    margin-top: -30px;
+}
+#bloc6 {
+background-color: #2c2c2c ;
+}
+#tv {
+    width: 300px;
+    margin: -50px;
+    margin-left: -80px;
+    margin-bottom: -px;  
+}
+#more {
+    font-size: 20px;
+    color: white;
+    margin-top: -125px;
+    margin-left: 300px;
+}
+#display {
+    font-size: 20px;
+    color: white;
+    margin-top: -100px;
+    margin-left: 300px;
+}
+
+
